@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(211, 147, 147); /* Set the background color for the entire content */
+}
+
+.color-picker {
+  margin: 20px;
+  text-align: center;
+  background-color: cream;
+  padding: 20px;
+  border-radius: 5px; /* Add border-radius for the inner color picker */
+}
+
+.pick-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: green; /* Button background color is green */
+  color: white; /* Text color is white */
+  border: none;
+  border-radius: 5px;
+}
+
+.color-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.output-box {
+  background-color: darkpink;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: rgb(160, 109, 152);
+}
+
+
+body {
+  background-color: rgb(190, 136, 190);
+}
